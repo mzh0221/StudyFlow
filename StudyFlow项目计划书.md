@@ -18,7 +18,7 @@ StudyFlow 是本地运行的个人学习任务编排系统。它将 ICS、自然
 
 ## 技术与总体架构
 
-技术基线为 Java 17、Spring Boot 3、MySQL 8、Redis 7、RocketMQ、Vue 3、Docker Compose、Ollama、Qwen3 4B、Tesseract OCR、Apache POI 和 Flyway。
+技术基线为 Java 21、Spring Boot 3、MySQL 8、Redis 7、RocketMQ、Vue 3、Docker Compose、Ollama、Qwen3 4B、Tesseract OCR、Apache POI 和 Flyway。
 
 Ollama 运行在 Windows 宿主机；后端容器通过 host.docker.internal 访问本地模型。MySQL、Redis、RocketMQ、MailHog、后端和前端由 Compose 启动。数据库变更均以 Flyway 迁移脚本维护。
 
