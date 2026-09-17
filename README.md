@@ -39,3 +39,27 @@ http://localhost:8080/api/v1/health
 cd backend
 ./mvnw test
 ```
+
+## 启动前端
+前端使用 Vue 3、Vite 和 Vue Router。
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+启动后访问终端显示的本地地址，通常是：
+
+```text
+http://localhost:5173/
+```
+
+## 构建前端
+
+```bash
+cd frontend
+npm run build
+```
+
+构建产物位于 `frontend/dist`，该目录可用于后续部署。
